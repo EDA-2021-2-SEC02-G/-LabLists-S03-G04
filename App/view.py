@@ -107,6 +107,10 @@ while True:
         author = controller.getBooksByAuthor(catalog, authorname)
         printAuthorData(author)
 
+
+
+        
+
     elif int(inputs[0]) == 4:
         label = input("Etiqueta a buscar: ")
         book_count = controller.countBooksByTag(catalog, label)
